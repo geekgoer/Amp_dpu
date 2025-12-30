@@ -1,0 +1,320 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat Dec 20 18:09:40 2025
+# Process ID: 50092
+# Current directory: E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.runs/synth_1
+# Command line: vivado.exe -log design_1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
+# Log file: E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.runs/synth_1/design_1_wrapper.vds
+# Journal file: E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/Xilinx/Vivado/2020.1/data/DPUCZDX8G_ip_repo_VAI_v3.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/Xilinx/Vivado/2020.1/data/dpu_ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2020.1/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is e:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.cache/ip 
+Command: synth_design -top design_1_wrapper -part xazu3eg-sfvc784-1-i
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xazu3eg'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xazu3eg'
+INFO: [Device 21-403] Loading part xazu3eg-sfvc784-1-i
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 48480
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1417.152 ; gain = 241.461
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_wrapper' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'design_1' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:13]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_interconnect_0_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:753]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_O7FAN0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:1143]
+INFO: [Synth 8-6157] synthesizing module 'design_1_auto_ds_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.runs/synth_1/.Xil/Vivado-50092-LAPTOP-STLBB71V/realtime/design_1_auto_ds_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_ds_0' (1#1) [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.runs/synth_1/.Xil/Vivado-50092-LAPTOP-STLBB71V/realtime/design_1_auto_ds_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_O7FAN0' (2#1) [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:1143]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_interconnect_0_0' (3#1) [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:753]
+INFO: [Synth 8-6157] synthesizing module 'design_1_clk_wiz_0_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.runs/synth_1/.Xil/Vivado-50092-LAPTOP-STLBB71V/realtime/design_1_clk_wiz_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_clk_wiz_0_0' (4#1) [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.runs/synth_1/.Xil/Vivado-50092-LAPTOP-STLBB71V/realtime/design_1_clk_wiz_0_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'locked' of module 'design_1_clk_wiz_0_0' is unconnected for instance 'clk_wiz_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:323]
+WARNING: [Synth 8-7023] instance 'clk_wiz_0' of module 'design_1_clk_wiz_0_0' has 5 connections declared, but only 4 given [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:323]
+INFO: [Synth 8-6157] synthesizing module 'design_1_dpu_eu_0_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.runs/synth_1/.Xil/Vivado-50092-LAPTOP-STLBB71V/realtime/design_1_dpu_eu_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_dpu_eu_0_0' (5#1) [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.runs/synth_1/.Xil/Vivado-50092-LAPTOP-STLBB71V/realtime/design_1_dpu_eu_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 's_axi_bid' of module 'design_1_dpu_eu_0_0' is unconnected for instance 'dpu_eu_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:328]
+WARNING: [Synth 8-7071] port 's_axi_rid' of module 'design_1_dpu_eu_0_0' is unconnected for instance 'dpu_eu_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:328]
+WARNING: [Synth 8-7071] port 'dpu0_m_axi_instr_wid' of module 'design_1_dpu_eu_0_0' is unconnected for instance 'dpu_eu_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:328]
+WARNING: [Synth 8-7071] port 'dpu0_m_axi_data0_wid' of module 'design_1_dpu_eu_0_0' is unconnected for instance 'dpu_eu_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:328]
+WARNING: [Synth 8-7071] port 'dpu0_m_axi_data1_awid' of module 'design_1_dpu_eu_0_0' is unconnected for instance 'dpu_eu_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:328]
+WARNING: [Synth 8-7071] port 'dpu0_m_axi_data1_awaddr' of module 'design_1_dpu_eu_0_0' is unconnected for instance 'dpu_eu_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:328]
+WARNING: [Synth 8-7071] port 'dpu0_m_axi_data1_awlen' of module 'design_1_dpu_eu_0_0' is unconnected for instance 'dpu_eu_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:328]
+WARNING: [Synth 8-7071] port 'dpu0_m_axi_data1_awsize' of module 'design_1_dpu_eu_0_0' is unconnected for instance 'dpu_eu_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:328]
+WARNING: [Synth 8-7071] port 'dpu0_m_axi_data1_awburst' of module 'design_1_dpu_eu_0_0' is unconnected for instance 'dpu_eu_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:328]
+WARNING: [Synth 8-7071] port 'dpu0_m_axi_data1_awlock' of module 'design_1_dpu_eu_0_0' is unconnected for instance 'dpu_eu_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:328]
+WARNING: [Synth 8-7071] port 'dpu0_m_axi_data1_awcache' of module 'design_1_dpu_eu_0_0' is unconnected for instance 'dpu_eu_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:328]
+WARNING: [Synth 8-7071] port 'dpu0_m_axi_data1_awprot' of module 'design_1_dpu_eu_0_0' is unconnected for instance 'dpu_eu_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:328]
+WARNING: [Synth 8-7071] port 'dpu0_m_axi_data1_awqos' of module 'design_1_dpu_eu_0_0' is unconnected for instance 'dpu_eu_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:328]
+WARNING: [Synth 8-7071] port 'dpu0_m_axi_data1_awuser' of module 'design_1_dpu_eu_0_0' is unconnected for instance 'dpu_eu_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:328]
+WARNING: [Synth 8-7071] port 'dpu0_m_axi_data1_awvalid' of module 'design_1_dpu_eu_0_0' is unconnected for instance 'dpu_eu_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:328]
+WARNING: [Synth 8-7071] port 'dpu0_m_axi_data1_wid' of module 'design_1_dpu_eu_0_0' is unconnected for instance 'dpu_eu_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:328]
+WARNING: [Synth 8-7071] port 'dpu0_m_axi_data1_wdata' of module 'design_1_dpu_eu_0_0' is unconnected for instance 'dpu_eu_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:328]
+WARNING: [Synth 8-7071] port 'dpu0_m_axi_data1_wstrb' of module 'design_1_dpu_eu_0_0' is unconnected for instance 'dpu_eu_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:328]
+WARNING: [Synth 8-7071] port 'dpu0_m_axi_data1_wlast' of module 'design_1_dpu_eu_0_0' is unconnected for instance 'dpu_eu_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:328]
+WARNING: [Synth 8-7071] port 'dpu0_m_axi_data1_wvalid' of module 'design_1_dpu_eu_0_0' is unconnected for instance 'dpu_eu_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:328]
+WARNING: [Synth 8-7071] port 'dpu0_m_axi_data1_bready' of module 'design_1_dpu_eu_0_0' is unconnected for instance 'dpu_eu_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:328]
+WARNING: [Synth 8-7071] port 'dpu0_m_axi_data1_arid' of module 'design_1_dpu_eu_0_0' is unconnected for instance 'dpu_eu_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:328]
+WARNING: [Synth 8-7071] port 'dpu0_m_axi_data1_araddr' of module 'design_1_dpu_eu_0_0' is unconnected for instance 'dpu_eu_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:328]
+WARNING: [Synth 8-7071] port 'dpu0_m_axi_data1_arlen' of module 'design_1_dpu_eu_0_0' is unconnected for instance 'dpu_eu_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:328]
+WARNING: [Synth 8-7071] port 'dpu0_m_axi_data1_arsize' of module 'design_1_dpu_eu_0_0' is unconnected for instance 'dpu_eu_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:328]
+WARNING: [Synth 8-7071] port 'dpu0_m_axi_data1_arburst' of module 'design_1_dpu_eu_0_0' is unconnected for instance 'dpu_eu_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:328]
+WARNING: [Synth 8-7071] port 'dpu0_m_axi_data1_arlock' of module 'design_1_dpu_eu_0_0' is unconnected for instance 'dpu_eu_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:328]
+WARNING: [Synth 8-7071] port 'dpu0_m_axi_data1_arcache' of module 'design_1_dpu_eu_0_0' is unconnected for instance 'dpu_eu_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:328]
+WARNING: [Synth 8-7071] port 'dpu0_m_axi_data1_arprot' of module 'design_1_dpu_eu_0_0' is unconnected for instance 'dpu_eu_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:328]
+WARNING: [Synth 8-7071] port 'dpu0_m_axi_data1_arqos' of module 'design_1_dpu_eu_0_0' is unconnected for instance 'dpu_eu_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:328]
+WARNING: [Synth 8-7071] port 'dpu0_m_axi_data1_aruser' of module 'design_1_dpu_eu_0_0' is unconnected for instance 'dpu_eu_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:328]
+WARNING: [Synth 8-7071] port 'dpu0_m_axi_data1_arvalid' of module 'design_1_dpu_eu_0_0' is unconnected for instance 'dpu_eu_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:328]
+WARNING: [Synth 8-7071] port 'dpu0_m_axi_data1_rready' of module 'design_1_dpu_eu_0_0' is unconnected for instance 'dpu_eu_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:328]
+WARNING: [Synth 8-7023] instance 'dpu_eu_0' of module 'design_1_dpu_eu_0_0' has 169 connections declared, but only 136 given [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:328]
+INFO: [Synth 8-6157] synthesizing module 'design_1_proc_sys_reset_0_1' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.runs/synth_1/.Xil/Vivado-50092-LAPTOP-STLBB71V/realtime/design_1_proc_sys_reset_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_proc_sys_reset_0_1' (6#1) [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.runs/synth_1/.Xil/Vivado-50092-LAPTOP-STLBB71V/realtime/design_1_proc_sys_reset_0_1_stub.v:6]
+WARNING: [Synth 8-7071] port 'mb_reset' of module 'design_1_proc_sys_reset_0_1' is unconnected for instance 'proc_sys_reset_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:465]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'design_1_proc_sys_reset_0_1' is unconnected for instance 'proc_sys_reset_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:465]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'design_1_proc_sys_reset_0_1' is unconnected for instance 'proc_sys_reset_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:465]
+WARNING: [Synth 8-7071] port 'peripheral_aresetn' of module 'design_1_proc_sys_reset_0_1' is unconnected for instance 'proc_sys_reset_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:465]
+WARNING: [Synth 8-7023] instance 'proc_sys_reset_0' of module 'design_1_proc_sys_reset_0_1' has 10 connections declared, but only 6 given [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:465]
+INFO: [Synth 8-6157] synthesizing module 'design_1_proc_sys_reset_0_2' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.runs/synth_1/.Xil/Vivado-50092-LAPTOP-STLBB71V/realtime/design_1_proc_sys_reset_0_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_proc_sys_reset_0_2' (7#1) [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.runs/synth_1/.Xil/Vivado-50092-LAPTOP-STLBB71V/realtime/design_1_proc_sys_reset_0_2_stub.v:6]
+WARNING: [Synth 8-7071] port 'mb_reset' of module 'design_1_proc_sys_reset_0_2' is unconnected for instance 'proc_sys_reset_1' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:472]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'design_1_proc_sys_reset_0_2' is unconnected for instance 'proc_sys_reset_1' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:472]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'design_1_proc_sys_reset_0_2' is unconnected for instance 'proc_sys_reset_1' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:472]
+WARNING: [Synth 8-7071] port 'peripheral_aresetn' of module 'design_1_proc_sys_reset_0_2' is unconnected for instance 'proc_sys_reset_1' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:472]
+WARNING: [Synth 8-7023] instance 'proc_sys_reset_1' of module 'design_1_proc_sys_reset_0_2' has 10 connections declared, but only 6 given [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:472]
+INFO: [Synth 8-6157] synthesizing module 'design_1_smartconnect_0_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.runs/synth_1/.Xil/Vivado-50092-LAPTOP-STLBB71V/realtime/design_1_smartconnect_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_smartconnect_0_0' (8#1) [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.runs/synth_1/.Xil/Vivado-50092-LAPTOP-STLBB71V/realtime/design_1_smartconnect_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_smartconnect_0_1' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.runs/synth_1/.Xil/Vivado-50092-LAPTOP-STLBB71V/realtime/design_1_smartconnect_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_smartconnect_0_1' (9#1) [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.runs/synth_1/.Xil/Vivado-50092-LAPTOP-STLBB71V/realtime/design_1_smartconnect_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_zynq_ultra_ps_e_0_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.runs/synth_1/.Xil/Vivado-50092-LAPTOP-STLBB71V/realtime/design_1_zynq_ultra_ps_e_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_zynq_ultra_ps_e_0_0' (10#1) [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.runs/synth_1/.Xil/Vivado-50092-LAPTOP-STLBB71V/realtime/design_1_zynq_ultra_ps_e_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'maxigp0_awuser' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:633]
+WARNING: [Synth 8-7071] port 'maxigp0_aruser' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:633]
+WARNING: [Synth 8-7071] port 'saxigp2_bid' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:633]
+WARNING: [Synth 8-7071] port 'saxigp2_rid' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:633]
+WARNING: [Synth 8-7071] port 'saxigp3_bid' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:633]
+WARNING: [Synth 8-7071] port 'saxigp3_rid' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:633]
+WARNING: [Synth 8-7023] instance 'zynq_ultra_ps_e_0' of module 'design_1_zynq_ultra_ps_e_0_0' has 123 connections declared, but only 117 given [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:633]
+INFO: [Synth 8-6155] done synthesizing module 'design_1' (11#1) [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/synth/design_1.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_wrapper' (12#1) [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1474.238 ; gain = 298.547
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1492.164 ; gain = 316.473
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1492.164 ; gain = 316.473
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 1492.164 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [e:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'design_1_i/zynq_ultra_ps_e_0'
+WARNING: [Vivado 12-584] No ports matched ''. [e:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0_in_context.xdc:2]
+Finished Parsing XDC File [e:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'design_1_i/zynq_ultra_ps_e_0'
+Parsing XDC File [e:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_in_context.xdc] for cell 'design_1_i/clk_wiz_0'
+WARNING: [Vivado 12-584] No ports matched ''. [e:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_in_context.xdc:1]
+WARNING: [Vivado 12-584] No ports matched ''. [e:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_in_context.xdc:4]
+WARNING: [Vivado 12-584] No ports matched ''. [e:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_in_context.xdc:6]
+Finished Parsing XDC File [e:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_in_context.xdc] for cell 'design_1_i/clk_wiz_0'
+Parsing XDC File [e:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_1/design_1_proc_sys_reset_0_1/design_1_proc_sys_reset_0_1_in_context.xdc] for cell 'design_1_i/proc_sys_reset_0'
+Finished Parsing XDC File [e:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_1/design_1_proc_sys_reset_0_1/design_1_proc_sys_reset_0_1_in_context.xdc] for cell 'design_1_i/proc_sys_reset_0'
+Parsing XDC File [e:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_2/design_1_proc_sys_reset_0_2/design_1_proc_sys_reset_0_2_in_context.xdc] for cell 'design_1_i/proc_sys_reset_1'
+Finished Parsing XDC File [e:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_2/design_1_proc_sys_reset_0_2/design_1_proc_sys_reset_0_2_in_context.xdc] for cell 'design_1_i/proc_sys_reset_1'
+Parsing XDC File [e:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/design_1_smartconnect_0_0/design_1_smartconnect_0_0_in_context.xdc] for cell 'design_1_i/smartconnect_0'
+Finished Parsing XDC File [e:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/design_1_smartconnect_0_0/design_1_smartconnect_0_0_in_context.xdc] for cell 'design_1_i/smartconnect_0'
+Parsing XDC File [e:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/ip/design_1_smartconnect_0_1/design_1_smartconnect_0_1/design_1_smartconnect_0_1_in_context.xdc] for cell 'design_1_i/smartconnect_1'
+Finished Parsing XDC File [e:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/ip/design_1_smartconnect_0_1/design_1_smartconnect_0_1/design_1_smartconnect_0_1_in_context.xdc] for cell 'design_1_i/smartconnect_1'
+Parsing XDC File [e:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/ip/design_1_dpu_eu_0_0/design_1_dpu_eu_0_0/design_1_dpu_eu_0_0_in_context.xdc] for cell 'design_1_i/dpu_eu_0'
+Finished Parsing XDC File [e:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/ip/design_1_dpu_eu_0_0/design_1_dpu_eu_0_0/design_1_dpu_eu_0_0_in_context.xdc] for cell 'design_1_i/dpu_eu_0'
+Parsing XDC File [e:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0/design_1_auto_ds_0_in_context.xdc] for cell 'design_1_i/axi_interconnect_0/s00_couplers/auto_ds'
+Finished Parsing XDC File [e:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0/design_1_auto_ds_0_in_context.xdc] for cell 'design_1_i/axi_interconnect_0/s00_couplers/auto_ds'
+Parsing XDC File [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1554.828 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 1554.828 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1554.828 ; gain = 379.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xazu3eg-sfvc784-1-i
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1554.828 ; gain = 379.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for design_1_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/zynq_ultra_ps_e_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/clk_wiz_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/proc_sys_reset_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/proc_sys_reset_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/smartconnect_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/smartconnect_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/axi_interconnect_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/dpu_eu_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/axi_interconnect_0/s00_couplers/auto_ds. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1554.828 ; gain = 379.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1554.828 ; gain = 379.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 360 (col length:72)
+BRAMs: 432 (col length: RAMB18 72 RAMB36 36)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1554.828 ; gain = 379.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1967.336 ; gain = 791.645
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1967.410 ; gain = 791.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1987.637 ; gain = 811.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1994.379 ; gain = 818.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1994.379 ; gain = 818.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1994.379 ; gain = 818.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1994.379 ; gain = 818.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1994.379 ; gain = 818.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1994.379 ; gain = 818.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-----------------------------+----------+
+|      |BlackBox name                |Instances |
++------+-----------------------------+----------+
+|1     |design_1_auto_ds_0           |         1|
+|2     |design_1_clk_wiz_0_0         |         1|
+|3     |design_1_dpu_eu_0_0          |         1|
+|4     |design_1_proc_sys_reset_0_1  |         1|
+|5     |design_1_proc_sys_reset_0_2  |         1|
+|6     |design_1_smartconnect_0_0    |         1|
+|7     |design_1_smartconnect_0_1    |         1|
+|8     |design_1_zynq_ultra_ps_e_0_0 |         1|
++------+-----------------------------+----------+
+
+Report Cell Usage: 
++------+---------------------------+------+
+|      |Cell                       |Count |
++------+---------------------------+------+
+|1     |design_1_auto_ds           |     1|
+|2     |design_1_clk_wiz_0         |     1|
+|3     |design_1_dpu_eu_0          |     1|
+|4     |design_1_proc_sys_reset_0  |     2|
+|6     |design_1_smartconnect_0    |     2|
+|8     |design_1_zynq_ultra_ps_e_0 |     1|
++------+---------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1994.379 ; gain = 818.688
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 1994.379 ; gain = 756.023
+Synthesis Optimization Complete : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1994.379 ; gain = 818.688
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 1994.379 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2026.926 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+41 Infos, 58 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 2031.930 ; gain = 1006.352
+INFO: [Common 17-1381] The checkpoint 'E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.runs/synth_1/design_1_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Dec 20 18:10:09 2025...

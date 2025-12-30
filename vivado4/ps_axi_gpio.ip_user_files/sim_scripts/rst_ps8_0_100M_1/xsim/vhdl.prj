@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../ps_axi_gpio.srcs/sources_1/ip/rst_ps8_0_100M_1/sim/rst_ps8_0_100M.vhd" \
+
+nosort

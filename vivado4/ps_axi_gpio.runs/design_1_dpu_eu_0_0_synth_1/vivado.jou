@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat Dec 20 18:05:19 2025
+# Process ID: 38300
+# Current directory: E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.runs/design_1_dpu_eu_0_0_synth_1
+# Command line: vivado.exe -log design_1_dpu_eu_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_dpu_eu_0_0.tcl
+# Log file: E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.runs/design_1_dpu_eu_0_0_synth_1/design_1_dpu_eu_0_0.vds
+# Journal file: E:/BaiduNetdiskDownload/AXU3EG/course_s2/13_ps_axi_gpio/vivado4/ps_axi_gpio.runs/design_1_dpu_eu_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_dpu_eu_0_0.tcl -notrace

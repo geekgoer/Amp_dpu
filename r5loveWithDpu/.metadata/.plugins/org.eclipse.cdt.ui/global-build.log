@@ -1,0 +1,2605 @@
+15:37:26 **** Build of project design_1_wrapperf ****
+buildplatform.bat 9433 design_1_wrapperf  
+XSDB Server Channel: tcfchan#14
+Building the zynqmp_fsbl application.
+make -C zynqmp_fsbl_bsp
+
+make[1]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp'
+
+"Running Make include in psu_cortexa53_0/libsrc/avbuf_v2_3/src"
+
+make -C psu_cortexa53_0/libsrc/avbuf_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+ "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfpu=
+vfpv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/avbuf_v2_3/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/avbuf_v2_3/src'
+
+"Running Make include in psu_cortexa53_0/libsrc/axipmon_v6_8/src"
+
+make -C psu_cortexa53_0/libsrc/axipmon_v6_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfp
+u=vfpv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/axipmon_v6_8/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/axipmon_v6_8/src'
+
+"Running Make include in psu_cortexa53_0/libsrc/canps_v3_4/src"
+
+make -C psu_cortexa53_0/libsrc/canps_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+ "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfpu=
+vfpv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/canps_v3_4/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/canps_v3_4/src'
+
+"Running Make include in psu_cortexa53_0/libsrc/clockps_v1_2/src"
+
+make -C psu_cortexa53_0/libsrc/clockps_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfp
+u=vfpv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/clockps_v1_2/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/clockps_v1_2/src'
+
+"Running Make include in psu_cortexa53_0/libsrc/coresightps_dcc_v1_7/src"
+
+make -C psu_cortexa53_0/libsrc/coresightps_dcc_v1_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-non
+e-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53
+_32 -mfpu=vfpv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/coresightps_dcc_v1_7/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/coresightps_dcc_v1_7/src'
+
+"Running Make include in psu_cortexa53_0/libsrc/cpu_cortexa53_v1_7/src"
+
+make -C psu_cortexa53_0/libsrc/cpu_cortexa53_v1_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-
+eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_3
+2 -mfpu=vfpv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/cpu_cortexa53_v1_7/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/cpu_cortexa53_v1_7/src'
+
+"Running Make include in psu_cortexa53_0/libsrc/csudma_v1_6/src"
+
+make -C psu_cortexa53_0/libsrc/csudma_v1_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfpu
+=vfpv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/csudma_v1_6/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/csudma_v1_6/src'
+
+"Running Make include in psu_cortexa53_0/libsrc/ddrcpsu_v1_2/src"
+
+make -C psu_cortexa53_0/libsrc/ddrcpsu_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfp
+u=vfpv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/ddrcpsu_v1_2/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/ddrcpsu_v1_2/src'
+
+"Running Make include in psu_cortexa53_0/libsrc/dpdma_v1_2/src"
+
+make -C psu_cortexa53_0/libsrc/dpdma_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+ "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfpu=
+vfpv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/dpdma_v1_2/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/dpdma_v1_2/src'
+
+"Running Make include in psu_cortexa53_0/libsrc/emacps_v3_11/src"
+
+make -C psu_cortexa53_0/libsrc/emacps_v3_11/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfp
+u=vfpv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/emacps_v3_11/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/emacps_v3_11/src'
+
+"Running Make include in psu_cortexa53_0/libsrc/gpiops_v3_7/src"
+
+make -C psu_cortexa53_0/libsrc/gpiops_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfpu
+=vfpv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/gpiops_v3_7/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/gpiops_v3_7/src'
+
+"Running Make include in psu_cortexa53_0/libsrc/iicps_v3_11/src"
+
+make -C psu_cortexa53_0/libsrc/iicps_v3_11/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfpu
+=vfpv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/iicps_v3_11/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/iicps_v3_11/src'
+
+"Running Make include in psu_cortexa53_0/libsrc/ipipsu_v2_6/src"
+
+make -C psu_cortexa53_0/libsrc/ipipsu_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfpu
+=vfpv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/ipipsu_v2_6/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/ipipsu_v2_6/src'
+
+"Running Make include in psu_cortexa53_0/libsrc/pciepsu_v1_1/src"
+
+make -C psu_cortexa53_0/libsrc/pciepsu_v1_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfp
+u=vfpv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/pciepsu_v1_1/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/pciepsu_v1_1/src'
+
+"Running Make include in psu_cortexa53_0/libsrc/qspipsu_v1_11/src"
+
+make -C psu_cortexa53_0/libsrc/qspipsu_v1_11/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mf
+pu=vfpv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/qspipsu_v1_11/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/qspipsu_v1_11/src'
+
+"Running Make include in psu_cortexa53_0/libsrc/resetps_v1_3/src"
+
+make -C psu_cortexa53_0/libsrc/resetps_v1_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfp
+u=vfpv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/resetps_v1_3/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/resetps_v1_3/src'
+
+"Running Make include in psu_cortexa53_0/libsrc/rtcpsu_v1_9/src"
+
+make -C psu_cortexa53_0/libsrc/rtcpsu_v1_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfpu
+=vfpv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/rtcpsu_v1_9/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/rtcpsu_v1_9/src'
+
+"Running Make include in psu_cortexa53_0/libsrc/scugic_v4_2/src"
+
+make -C psu_cortexa53_0/libsrc/scugic_v4_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfpu
+=vfpv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/scugic_v4_2/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/scugic_v4_2/src'
+
+"Running Make include in psu_cortexa53_0/libsrc/sdps_v3_9/src"
+
+make -C psu_cortexa53_0/libsrc/sdps_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfpu=v
+fpv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/sdps_v3_9/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/sdps_v3_9/src'
+
+"Running Make include in psu_cortexa53_0/libsrc/standalone_v7_2/src"
+
+make -C psu_cortexa53_0/libsrc/standalone_v7_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -
+mfpu=vfpv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/standalone_v7_2/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/standalone_v7_2/src'
+
+"Running Make include in psu_cortexa53_0/libsrc/sysmonpsu_v2_6/src"
+
+make -C psu_cortexa53_0/libsrc/sysmonpsu_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -m
+fpu=vfpv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/sysmonpsu_v2_6/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/sysmonpsu_v2_6/src'
+
+"Running Make include in psu_cortexa53_0/libsrc/ttcps_v3_11/src"
+
+make -C psu_cortexa53_0/libsrc/ttcps_v3_11/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfpu
+=vfpv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/ttcps_v3_11/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/ttcps_v3_11/src'
+
+"Running Make include in psu_cortexa53_0/libsrc/uartps_v3_9/src"
+
+make -C psu_cortexa53_0/libsrc/uartps_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfpu
+=vfpv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/uartps_v3_9/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/uartps_v3_9/src'
+
+"Running Make include in psu_cortexa53_0/libsrc/usbpsu_v1_7/src"
+
+make -C psu_cortexa53_0/libsrc/usbpsu_v1_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfpu
+=vfpv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/usbpsu_v1_7/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/usbpsu_v1_7/src'
+
+"Running Make include in psu_cortexa53_0/libsrc/video_common_v4_9/src"
+
+make -C psu_cortexa53_0/libsrc/video_common_v4_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-e
+abi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32
+ -mfpu=vfpv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/video_common_v4_9/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/video_common_v4_9/src'
+
+"Running Make include in psu_cortexa53_0/libsrc/xilffs_v4_3/src"
+
+make -C psu_cortexa53_0/libsrc/xilffs_v4_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfpu
+=vfpv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/xilffs_v4_3/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/xilffs_v4_3/src'
+
+"Running Make include in psu_cortexa53_0/libsrc/xilpm_v3_1/src"
+
+make -C psu_cortexa53_0/libsrc/xilpm_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+ "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfpu=
+vfpv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/xilpm_v3_1/src'
+
+"Include files for this library have already been copied."
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/xilpm_v3_1/src'
+
+"Running Make include in psu_cortexa53_0/libsrc/xilsecure_v4_2/src"
+
+make -C psu_cortexa53_0/libsrc/xilsecure_v4_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -m
+fpu=vfpv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/xilsecure_v4_2/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/xilsecure_v4_2/src'
+
+"Running Make include in psu_cortexa53_0/libsrc/zdma_v1_9/src"
+
+make -C psu_cortexa53_0/libsrc/zdma_v1_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfpu=v
+fpv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/zdma_v1_9/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/zdma_v1_9/src'
+
+"Running Make libs in psu_cortexa53_0/libsrc/avbuf_v2_3/src"
+
+make -C psu_cortexa53_0/libsrc/avbuf_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfpu=vfp
+v3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/avbuf_v2_3/src'
+
+"Compiling avbuf"
+
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/avbuf_v2_3/src'
+
+"Running Make libs in psu_cortexa53_0/libsrc/axipmon_v6_8/src"
+
+make -C psu_cortexa53_0/libsrc/axipmon_v6_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfpu=v
+fpv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/axipmon_v6_8/src'
+
+"Compiling axipmon"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/axipmon_v6_8/src'
+
+"Running Make libs in psu_cortexa53_0/libsrc/canps_v3_4/src"
+
+make -C psu_cortexa53_0/libsrc/canps_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfpu=vfp
+v3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/canps_v3_4/src'
+
+"Compiling canps"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/canps_v3_4/src'
+
+"Running Make libs in psu_cortexa53_0/libsrc/clockps_v1_2/src"
+
+make -C psu_cortexa53_0/libsrc/clockps_v1_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfpu=v
+fpv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/clockps_v1_2/src'
+
+"Compiling clockps"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/clockps_v1_2/src'
+
+"Running Make libs in psu_cortexa53_0/libsrc/coresightps_dcc_v1_7/src"
+
+make -C psu_cortexa53_0/libsrc/coresightps_dcc_v1_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-e
+abi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32
+ -mfpu=vfpv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/coresightps_dcc_v1_7/src'
+
+"Compiling coresightps_dcc"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/coresightps_dcc_v1_7/src'
+
+"Running Make libs in psu_cortexa53_0/libsrc/cpu_cortexa53_v1_7/src"
+
+make -C psu_cortexa53_0/libsrc/cpu_cortexa53_v1_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -
+mfpu=vfpv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/cpu_cortexa53_v1_7/src'
+
+"Compiling cpu_cortexa53"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/cpu_cortexa53_v1_7/src'
+
+"Running Make libs in psu_cortexa53_0/libsrc/csudma_v1_6/src"
+
+make -C psu_cortexa53_0/libsrc/csudma_v1_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfpu=vf
+pv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/csudma_v1_6/src'
+
+"Compiling csudma"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/csudma_v1_6/src'
+
+"Running Make libs in psu_cortexa53_0/libsrc/ddrcpsu_v1_2/src"
+
+make -C psu_cortexa53_0/libsrc/ddrcpsu_v1_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfpu=v
+fpv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/ddrcpsu_v1_2/src'
+
+"Compiling ddrcpsu"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/ddrcpsu_v1_2/src'
+
+"Running Make libs in psu_cortexa53_0/libsrc/dpdma_v1_2/src"
+
+make -C psu_cortexa53_0/libsrc/dpdma_v1_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfpu=vfp
+v3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/dpdma_v1_2/src'
+
+"Compiling dpdma"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/dpdma_v1_2/src'
+
+"Running Make libs in psu_cortexa53_0/libsrc/emacps_v3_11/src"
+
+make -C psu_cortexa53_0/libsrc/emacps_v3_11/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfpu=v
+fpv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/emacps_v3_11/src'
+
+"Compiling emacps"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/emacps_v3_11/src'
+
+"Running Make libs in psu_cortexa53_0/libsrc/gpiops_v3_7/src"
+
+make -C psu_cortexa53_0/libsrc/gpiops_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfpu=vf
+pv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/gpiops_v3_7/src'
+
+"Compiling gpiops"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/gpiops_v3_7/src'
+
+"Running Make libs in psu_cortexa53_0/libsrc/iicps_v3_11/src"
+
+make -C psu_cortexa53_0/libsrc/iicps_v3_11/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfpu=vf
+pv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/iicps_v3_11/src'
+
+"Compiling iicps"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/iicps_v3_11/src'
+
+"Running Make libs in psu_cortexa53_0/libsrc/ipipsu_v2_6/src"
+
+make -C psu_cortexa53_0/libsrc/ipipsu_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfpu=vf
+pv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/ipipsu_v2_6/src'
+
+"Compiling ipipsu"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/ipipsu_v2_6/src'
+
+"Running Make libs in psu_cortexa53_0/libsrc/pciepsu_v1_1/src"
+
+make -C psu_cortexa53_0/libsrc/pciepsu_v1_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfpu=v
+fpv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/pciepsu_v1_1/src'
+
+"Compiling pciepsu"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/pciepsu_v1_1/src'
+
+"Running Make libs in psu_cortexa53_0/libsrc/qspipsu_v1_11/src"
+
+make -C psu_cortexa53_0/libsrc/qspipsu_v1_11/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+ "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfpu=
+vfpv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/qspipsu_v1_11/src'
+
+"Compiling qspipsu"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/qspipsu_v1_11/src'
+
+"Running Make libs in psu_cortexa53_0/libsrc/resetps_v1_3/src"
+
+make -C psu_cortexa53_0/libsrc/resetps_v1_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfpu=v
+fpv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/resetps_v1_3/src'
+
+"Compiling resetps"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/resetps_v1_3/src'
+
+"Running Make libs in psu_cortexa53_0/libsrc/rtcpsu_v1_9/src"
+
+make -C psu_cortexa53_0/libsrc/rtcpsu_v1_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfpu=vf
+pv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/rtcpsu_v1_9/src'
+
+"Compiling rtcpsu"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/rtcpsu_v1_9/src'
+
+"Running Make libs in psu_cortexa53_0/libsrc/scugic_v4_2/src"
+
+make -C psu_cortexa53_0/libsrc/scugic_v4_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfpu=vf
+pv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/scugic_v4_2/src'
+
+"Compiling scugic"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/scugic_v4_2/src'
+
+"Running Make libs in psu_cortexa53_0/libsrc/sdps_v3_9/src"
+
+make -C psu_cortexa53_0/libsrc/sdps_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfpu=vfpv
+3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/sdps_v3_9/src'
+
+"Compiling sdps"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/sdps_v3_9/src'
+
+"Running Make libs in psu_cortexa53_0/libsrc/standalone_v7_2/src"
+
+make -C psu_cortexa53_0/libsrc/standalone_v7_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfp
+u=vfpv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/standalone_v7_2/src'
+
+"Compiling standalone"
+
+In file included from usleep.c:36:
+xtime_l.h:59:9: note: #pragma message: For the sleep routines, Global timer is being used
+   59 | #pragma message ("For the sleep routines, Global timer is being used")
+      |         ^~~~~~~
+In file included from xil_sleeptimer.c:32:
+xtime_l.h:59:9: note: #pragma message: For the sleep routines, Global timer is being used
+   59 | #pragma message ("For the sleep routines, Global timer is being used")
+      |         ^~~~~~~
+In file included from xtime_l.c:29:
+xtime_l.h:59:9: note: #pragma message: For the sleep routines, Global timer is being used
+   59 | #pragma message ("For the sleep routines, Global timer is being used")
+      |         ^~~~~~~
+In file included from sleep.c:36:
+xtime_l.h:59:9: note: #pragma message: For the sleep routines, Global timer is being used
+   59 | #pragma message ("For the sleep routines, Global timer is being used")
+      |         ^~~~~~~
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/standalone_v7_2/src'
+
+"Running Make libs in psu_cortexa53_0/libsrc/sysmonpsu_v2_6/src"
+
+make -C psu_cortexa53_0/libsrc/sysmonpsu_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfpu
+=vfpv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/sysmonpsu_v2_6/src'
+
+"Compiling sysmonpsu"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/sysmonpsu_v2_6/src'
+
+"Running Make libs in psu_cortexa53_0/libsrc/ttcps_v3_11/src"
+
+make -C psu_cortexa53_0/libsrc/ttcps_v3_11/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfpu=vf
+pv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/ttcps_v3_11/src'
+
+"Compiling ttcps"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/ttcps_v3_11/src'
+
+"Running Make libs in psu_cortexa53_0/libsrc/uartps_v3_9/src"
+
+make -C psu_cortexa53_0/libsrc/uartps_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfpu=vf
+pv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/uartps_v3_9/src'
+
+"Compiling uartps"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/uartps_v3_9/src'
+
+"Running Make libs in psu_cortexa53_0/libsrc/usbpsu_v1_7/src"
+
+make -C psu_cortexa53_0/libsrc/usbpsu_v1_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfpu=vf
+pv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/usbpsu_v1_7/src'
+
+"Compiling usbpsu"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/usbpsu_v1_7/src'
+
+"Running Make libs in psu_cortexa53_0/libsrc/video_common_v4_9/src"
+
+make -C psu_cortexa53_0/libsrc/video_common_v4_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -m
+fpu=vfpv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/video_common_v4_9/src'
+
+"Compiling video_common"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/video_common_v4_9/src'
+
+"Running Make libs in psu_cortexa53_0/libsrc/xilffs_v4_3/src"
+
+make -C psu_cortexa53_0/libsrc/xilffs_v4_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfpu=vf
+pv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/xilffs_v4_3/src'
+
+"Compiling XilFFs Library"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/xilffs_v4_3/src'
+
+"Running Make libs in psu_cortexa53_0/libsrc/xilpm_v3_1/src"
+
+make -C psu_cortexa53_0/libsrc/xilpm_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfpu=vfp
+v3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/xilpm_v3_1/src'
+
+"Compiling xilpm library"
+
+pm_api_sys.c: In function 'XPm_ClockSetRate':
+pm_api_sys.c:1751:46: warning: unused parameter 'clock' [-Wunused-parameter]
+ 1751 | XStatus XPm_ClockSetRate(const enum XPmClock clock, const u32 rate)
+      |                          ~~~~~~~~~~~~~~~~~~~~^~~~~
+pm_api_sys.c:1751:63: warning: unused parameter 'rate' [-Wunused-parameter]
+ 1751 | XStatus XPm_ClockSetRate(const enum XPmClock clock, const u32 rate)
+      |                                                     ~~~~~~~~~~^~~~
+pm_api_sys.c: In function 'XPm_ClockGetRate':
+pm_api_sys.c:1768:46: warning: unused parameter 'clock' [-Wunused-parameter]
+ 1768 | XStatus XPm_ClockGetRate(const enum XPmClock clock, u32 *const rate)
+      |                          ~~~~~~~~~~~~~~~~~~~~^~~~~
+pm_api_sys.c:1768:64: warning: unused parameter 'rate' [-Wunused-parameter]
+ 1768 | XStatus XPm_ClockGetRate(const enum XPmClock clock, u32 *const rate)
+      |                                                     ~~~~~~~~~~~^~~~
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/xilpm_v3_1/src'
+
+"Running Make libs in psu_cortexa53_0/libsrc/xilsecure_v4_2/src"
+
+make -C psu_cortexa53_0/libsrc/xilsecure_v4_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfpu
+=vfpv3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/xilsecure_v4_2/src'
+
+"Compiling XilSecure Library"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/xilsecure_v4_2/src'
+
+"Running Make libs in psu_cortexa53_0/libsrc/zdma_v1_9/src"
+
+make -C psu_cortexa53_0/libsrc/zdma_v1_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -march=armv7-a -DARMA53_32 -mfpu=vfpv
+3 -mfloat-abi=hard"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/
+libsrc/zdma_v1_9/src'
+
+"Compiling zdma"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp/psu_cortexa53_0/l
+ibsrc/zdma_v1_9/src'
+
+'Finished building libraries'
+
+make[1]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_fsbl/zynqmp_fsbl_bsp'
+
+arm-none-eabi-gcc -MMD -MP      -Wall -fmessage-length=0 -march=armv7-a -mfpu=vfpv3 -mfloat-abi=hard -DARMA53_32 -Os -flto -ffa
+t-lto-objects    -O2 -c -c xfsbl_partition_load.c -o xfsbl_partition_load.o -Izynqmp_fsbl_bsp/psu_cortexa53_0/include -I.
+
+In file included from xfsbl_main.h:41,
+                 from xfsbl_partition_load.c:50:
+zynqmp_fsbl_bsp/psu_cortexa53_0/include/xtime_l.h:59:9: note: #pragma message: For the sleep routines, Global timer is being used
+   59 | #pragma message ("For the sleep routines, Global timer is being used")
+      |         ^~~~~~~
+arm-none-eabi-gcc -MMD -MP      -Wall -fmessage-length=0 -march=armv7-a -mfpu=vfpv3 -mfloat-abi=hard -DARMA53_32 -Os -flto -ffa
+t-lto-objects    -O2 -c -c xfsbl_qspi.c -o xfsbl_qspi.o -Izynqmp_fsbl_bsp/psu_cortexa53_0/include -I.
+
+arm-none-eabi-gcc -MMD -MP      -Wall -fmessage-length=0 -march=armv7-a -mfpu=vfpv3 -mfloat-abi=hard -DARMA53_32 -Os -flto -ffa
+t-lto-objects    -O2 -c -c xfsbl_csu_dma.c -o xfsbl_csu_dma.o -Izynqmp_fsbl_bsp/psu_cortexa53_0/include -I.
+
+arm-none-eabi-gcc -MMD -MP      -Wall -fmessage-length=0 -march=armv7-a -mfpu=vfpv3 -mfloat-abi=hard -DARMA53_32 -Os -flto -ffa
+t-lto-objects    -O2 -c -c xfsbl_nand.c -o xfsbl_nand.o -Izynqmp_fsbl_bsp/psu_cortexa53_0/include -I.
+
+arm-none-eabi-gcc -MMD -MP      -Wall -fmessage-length=0 -march=armv7-a -mfpu=vfpv3 -mfloat-abi=hard -DARMA53_32 -Os -flto -ffa
+t-lto-objects    -O2 -c -c xfsbl_usb.c -o xfsbl_usb.o -Izynqmp_fsbl_bsp/psu_cortexa53_0/include -I.
+
+arm-none-eabi-gcc -MMD -MP      -Wall -fmessage-length=0 -march=armv7-a -mfpu=vfpv3 -mfloat-abi=hard -DARMA53_32 -Os -flto -ffa
+t-lto-objects    -O2 -c -c xfsbl_sd.c -o xfsbl_sd.o -Izynqmp_fsbl_bsp/psu_cortexa53_0/include -I.
+
+In file included from xfsbl_main.h:41,
+                 from xfsbl_sd.c:29:
+zynqmp_fsbl_bsp/psu_cortexa53_0/include/xtime_l.h:59:9: note: #pragma message: For the sleep routines, Global timer is being used
+   59 | #pragma message ("For the sleep routines, Global timer is being used")
+      |         ^~~~~~~
+arm-none-eabi-gcc -MMD -MP      -Wall -fmessage-length=0 -march=armv7-a -mfpu=vfpv3 -mfloat-abi=hard -DARMA53_32 -Os -flto -ffa
+t-lto-objects    -O2 -c -c xfsbl_hooks.c -o xfsbl_hooks.o -Izynqmp_fsbl_bsp/psu_cortexa53_0/include -I.
+
+arm-none-eabi-gcc -MMD -MP      -Wall -fmessage-length=0 -march=armv7-a -mfpu=vfpv3 -mfloat-abi=hard -DARMA53_32 -Os -flto -ffa
+t-lto-objects    -O2 -c -c xfsbl_main.c -o xfsbl_main.o -Izynqmp_fsbl_bsp/psu_cortexa53_0/include -I.
+
+In file included from xfsbl_main.h:41,
+                 from xfsbl_main.c:32:
+zynqmp_fsbl_bsp/psu_cortexa53_0/include/xtime_l.h:59:9: note: #pragma message: For the sleep routines, Global timer is being used
+   59 | #pragma message ("For the sleep routines, Global timer is being used")
+      |         ^~~~~~~
+arm-none-eabi-gcc -MMD -MP      -Wall -fmessage-length=0 -march=armv7-a -mfpu=vfpv3 -mfloat-abi=hard -DARMA53_32 -Os -flto -ffa
+t-lto-objects    -O2 -c -c xfsbl_dfu_util.c -o xfsbl_dfu_util.o -Izynqmp_fsbl_bsp/psu_cortexa53_0/include -I.
+
+arm-none-eabi-gcc -MMD -MP      -Wall -fmessage-length=0 -march=armv7-a -mfpu=vfpv3 -mfloat-abi=hard -DARMA53_32 -Os -flto -ffa
+t-lto-objects    -O2 -c -c xfsbl_initialization.c -o xfsbl_initialization.o -Izynqmp_fsbl_bsp/psu_cortexa53_0/include -I.
+
+In file included from xfsbl_main.h:41,
+                 from xfsbl_initialization.c:49:
+zynqmp_fsbl_bsp/psu_cortexa53_0/include/xtime_l.h:59:9: note: #pragma message: For the sleep routines, Global timer is being used
+   59 | #pragma message ("For the sleep routines, Global timer is being used")
+      |         ^~~~~~~
+arm-none-eabi-gcc -MMD -MP      -Wall -fmessage-length=0 -march=armv7-a -mfpu=vfpv3 -mfloat-abi=hard -DARMA53_32 -Os -flto -ffa
+t-lto-objects    -O2 -c -c xfsbl_ddr_init.c -o xfsbl_ddr_init.o -Izynqmp_fsbl_bsp/psu_cortexa53_0/include -I.
+
+arm-none-eabi-gcc -MMD -MP      -Wall -fmessage-length=0 -march=armv7-a -mfpu=vfpv3 -mfloat-abi=hard -DARMA53_32 -Os -flto -ffa
+t-lto-objects    -O2 -c -c xfsbl_handoff.c -o xfsbl_handoff.o -Izynqmp_fsbl_bsp/psu_cortexa53_0/include -I.
+
+In file included from xfsbl_main.h:41,
+                 from xfsbl_handoff.c:37:
+zynqmp_fsbl_bsp/psu_cortexa53_0/include/xtime_l.h:59:9: note: #pragma message: For the sleep routines, Global timer is being used
+   59 | #pragma message ("For the sleep routines, Global timer is being used")
+      |         ^~~~~~~
+arm-none-eabi-gcc -MMD -MP      -Wall -fmessage-length=0 -march=armv7-a -mfpu=vfpv3 -mfloat-abi=hard -DARMA53_32 -Os -flto -ffa
+t-lto-objects    -O2 -c -c psu_init.c -o psu_init.o -Izynqmp_fsbl_bsp/psu_cortexa53_0/include -I.
+
+arm-none-eabi-gcc -MMD -MP      -Wall -fmessage-length=0 -march=armv7-a -mfpu=vfpv3 -mfloat-abi=hard -DARMA53_32 -Os -flto -ffa
+t-lto-objects    -O2 -c -c xfsbl_board.c -o xfsbl_board.o -Izynqmp_fsbl_bsp/psu_cortexa53_0/include -I.
+
+arm-none-eabi-gcc -MMD -MP      -Wall -fmessage-length=0 -march=armv7-a -mfpu=vfpv3 -mfloat-abi=hard -DARMA53_32 -Os -flto -ffa
+t-lto-objects    -O2 -c -c xfsbl_misc_drivers.c -o xfsbl_misc_drivers.o -Izynqmp_fsbl_bsp/psu_cortexa53_0/include -I.
+
+arm-none-eabi-gcc -MMD -MP      -Wall -fmessage-length=0 -march=armv7-a -mfpu=vfpv3 -mfloat-abi=hard -DARMA53_32 -Os -flto -ffa
+t-lto-objects    -O2 -c -c xfsbl_bs.c -o xfsbl_bs.o -Izynqmp_fsbl_bsp/psu_cortexa53_0/include -I.
+
+In file included from xfsbl_main.h:41,
+                 from xfsbl_bs.h:38,
+                 from xfsbl_bs.c:32:
+zynqmp_fsbl_bsp/psu_cortexa53_0/include/xtime_l.h:59:9: note: #pragma message: For the sleep routines, Global timer is being used
+   59 | #pragma message ("For the sleep routines, Global timer is being used")
+      |         ^~~~~~~
+arm-none-eabi-gcc -MMD -MP      -Wall -fmessage-length=0 -march=armv7-a -mfpu=vfpv3 -mfloat-abi=hard -DARMA53_32 -Os -flto -ffa
+t-lto-objects    -O2 -c -c xfsbl_rsa_sha.c -o xfsbl_rsa_sha.o -Izynqmp_fsbl_bsp/psu_cortexa53_0/include -I.
+
+In file included from xfsbl_main.h:41,
+                 from xfsbl_authentication.h:41,
+                 from xfsbl_rsa_sha.c:32:
+zynqmp_fsbl_bsp/psu_cortexa53_0/include/xtime_l.h:59:9: note: #pragma message: For the sleep routines, Global timer is being used
+   59 | #pragma message ("For the sleep routines, Global timer is being used")
+      |         ^~~~~~~
+arm-none-eabi-gcc -MMD -MP      -Wall -fmessage-length=0 -march=armv7-a -mfpu=vfpv3 -mfloat-abi=hard -DARMA53_32 -Os -flto -ffa
+t-lto-objects    -O2 -c -c xfsbl_plpartition_valid.c -o xfsbl_plpartition_valid.o -Izynqmp_fsbl_bsp/psu_cortexa53_0/include -I.
+
+
+In file included from xfsbl_main.h:41,
+                 from xfsbl_authentication.h:41,
+                 from xfsbl_plpartition_valid.h:38,
+                 from xfsbl_plpartition_valid.c:55:
+zynqmp_fsbl_bsp/psu_cortexa53_0/include/xtime_l.h:59:9: note: #pragma message: For the sleep routines, Global timer is being used
+   59 | #pragma message ("For the sleep routines, Global timer is being used")
+      |         ^~~~~~~
+arm-none-eabi-gcc -MMD -MP      -Wall -fmessage-length=0 -march=armv7-a -mfpu=vfpv3 -mfloat-abi=hard -DARMA53_32 -Os -flto -ffa
+t-lto-objects    -O2 -c -c xfsbl_image_header.c -o xfsbl_image_header.o -Izynqmp_fsbl_bsp/psu_cortexa53_0/include -I.
+
+arm-none-eabi-gcc -MMD -MP      -Wall -fmessage-length=0 -march=armv7-a -mfpu=vfpv3 -mfloat-abi=hard -DARMA53_32 -Os -flto -ffa
+t-lto-objects    -O2 -c -c xfsbl_misc.c -o xfsbl_misc.o -Izynqmp_fsbl_bsp/psu_cortexa53_0/include -I.
+
+In file included from xfsbl_main.h:41,
+                 from xfsbl_misc.c:31:
+zynqmp_fsbl_bsp/psu_cortexa53_0/include/xtime_l.h:59:9: note: #pragma message: For the sleep routines, Global timer is being used
+   59 | #pragma message ("For the sleep routines, Global timer is being used")
+      |         ^~~~~~~
+arm-none-eabi-gcc -MMD -MP      -Wall -fmessage-length=0 -march=armv7-a -mfpu=vfpv3 -mfloat-abi=hard -DARMA53_32 -Os -flto -ffa
+t-lto-objects    -O2 -c -c xfsbl_authentication.c -o xfsbl_authentication.o -Izynqmp_fsbl_bsp/psu_cortexa53_0/include -I.
+
+In file included from xfsbl_main.h:41,
+                 from xfsbl_bs.h:38,
+                 from xfsbl_authentication.c:44:
+zynqmp_fsbl_bsp/psu_cortexa53_0/include/xtime_l.h:59:9: note: #pragma message: For the sleep routines, Global timer is being used
+   59 | #pragma message ("For the sleep routines, Global timer is being used")
+      |         ^~~~~~~
+arm-none-eabi-gcc -MMD -MP      -Wall -fmessage-length=0 -march=armv7-a -mfpu=vfpv3 -mfloat-abi=hard -DARMA53_32 -Os -flto -ffa
+t-lto-objects    -O2 -c -c xfsbl_translation_table.S -o xfsbl_translation_table.o -Izynqmp_fsbl_bsp/psu_cortexa53_0/include -I.
+
+
+arm-none-eabi-gcc -MMD -MP      -Wall -fmessage-length=0 -march=armv7-a -mfpu=vfpv3 -mfloat-abi=hard -DARMA53_32 -Os -flto -ffa
+t-lto-objects    -O2 -c -c xfsbl_exit.S -o xfsbl_exit.o -Izynqmp_fsbl_bsp/psu_cortexa53_0/include -I.
+
+arm-none-eabi-gcc -o executable.elf  xfsbl_partition_load.o  xfsbl_qspi.o  xfsbl_csu_dma.o  xfsbl_nand.o  xfsbl_usb.o  xfsbl_sd
+.o  xfsbl_hooks.o  xfsbl_main.o  xfsbl_dfu_util.o  xfsbl_initialization.o  xfsbl_ddr_init.o  xfsbl_handoff.o  psu_init.o  xfsbl
+_board.o  xfsbl_misc_drivers.o  xfsbl_bs.o  xfsbl_rsa_sha.o  xfsbl_plpartition_valid.o  xfsbl_image_header.o  xfsbl_misc.o  xfs
+bl_authentication.o  xfsbl_translation_table.o  xfsbl_exit.o -MMD -MP      -Wall -fmessage-length=0 -march=armv7-a -mfpu=vfpv3 
+-mfloat-abi=hard -DARMA53_32 -Os -flto -ffat-lto-objects    -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lx
+ilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilsecure,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilpm,-lxil,-lg
+cc,-lc,--end-group                                                                                                             
+ -n  -Wl,--gc-sections -Lzynqmp_fsbl_bsp/psu_cortexa53_0/lib -Tlscript.ld
+
+Building the zynqmp_pmufw application.
+make -C zynqmp_pmufw_bsp
+
+make[1]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp'
+
+"Running Make include in psu_cortexr5_0/libsrc/avbuf_v2_3/src"
+
+make -C psu_cortexr5_0/libsrc/avbuf_v2_3/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-
+as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfl
+oat-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/avbuf_v2_3/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/avbuf_v2_3/src'
+
+"Running Make include in psu_cortexr5_0/libsrc/axipmon_v6_8/src"
+
+make -C psu_cortexr5_0/libsrc/axipmon_v6_8/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eab
+i-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -m
+float-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/axipmon_v6_8/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/axipmon_v6_8/src'
+
+"Running Make include in psu_cortexr5_0/libsrc/canps_v3_4/src"
+
+make -C psu_cortexr5_0/libsrc/canps_v3_4/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-
+as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfl
+oat-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/canps_v3_4/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/canps_v3_4/src'
+
+"Running Make include in psu_cortexr5_0/libsrc/clockps_v1_2/src"
+
+make -C psu_cortexr5_0/libsrc/clockps_v1_2/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eab
+i-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -m
+float-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/clockps_v1_2/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/clockps_v1_2/src'
+
+"Running Make include in psu_cortexr5_0/libsrc/coresightps_dcc_v1_7/src"
+
+make -C psu_cortexr5_0/libsrc/coresightps_dcc_v1_7/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-
+none-eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -W
+extra -mfloat-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/coresightps_dcc_v1_7/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/coresightps_dcc_v1_7/src'
+
+"Running Make include in psu_cortexr5_0/libsrc/cpu_cortexr5_v1_7/src"
+
+make -C psu_cortexr5_0/libsrc/cpu_cortexr5_v1_7/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-non
+e-eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wext
+ra -mfloat-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/cpu_cortexr5_v1_7/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/cpu_cortexr5_v1_7/src'
+
+"Running Make include in psu_cortexr5_0/libsrc/csudma_v1_6/src"
+
+make -C psu_cortexr5_0/libsrc/csudma_v1_6/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi
+-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mf
+loat-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/csudma_v1_6/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/csudma_v1_6/src'
+
+"Running Make include in psu_cortexr5_0/libsrc/ddrcpsu_v1_2/src"
+
+make -C psu_cortexr5_0/libsrc/ddrcpsu_v1_2/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eab
+i-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -m
+float-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/ddrcpsu_v1_2/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/ddrcpsu_v1_2/src'
+
+"Running Make include in psu_cortexr5_0/libsrc/dpdma_v1_2/src"
+
+make -C psu_cortexr5_0/libsrc/dpdma_v1_2/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-
+as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfl
+oat-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/dpdma_v1_2/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/dpdma_v1_2/src'
+
+"Running Make include in psu_cortexr5_0/libsrc/emacps_v3_11/src"
+
+make -C psu_cortexr5_0/libsrc/emacps_v3_11/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eab
+i-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -m
+float-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/emacps_v3_11/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/emacps_v3_11/src'
+
+"Running Make include in psu_cortexr5_0/libsrc/gpiops_v3_7/src"
+
+make -C psu_cortexr5_0/libsrc/gpiops_v3_7/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi
+-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mf
+loat-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/gpiops_v3_7/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/gpiops_v3_7/src'
+
+"Running Make include in psu_cortexr5_0/libsrc/iicps_v3_11/src"
+
+make -C psu_cortexr5_0/libsrc/iicps_v3_11/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi
+-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mf
+loat-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/iicps_v3_11/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/iicps_v3_11/src'
+
+"Running Make include in psu_cortexr5_0/libsrc/ipipsu_v2_6/src"
+
+make -C psu_cortexr5_0/libsrc/ipipsu_v2_6/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi
+-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mf
+loat-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/ipipsu_v2_6/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/ipipsu_v2_6/src'
+
+"Running Make include in psu_cortexr5_0/libsrc/pciepsu_v1_1/src"
+
+make -C psu_cortexr5_0/libsrc/pciepsu_v1_1/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eab
+i-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -m
+float-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/pciepsu_v1_1/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/pciepsu_v1_1/src'
+
+"Running Make include in psu_cortexr5_0/libsrc/qspipsu_v1_11/src"
+
+make -C psu_cortexr5_0/libsrc/qspipsu_v1_11/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-ea
+bi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -
+mfloat-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/qspipsu_v1_11/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/qspipsu_v1_11/src'
+
+"Running Make include in psu_cortexr5_0/libsrc/resetps_v1_3/src"
+
+make -C psu_cortexr5_0/libsrc/resetps_v1_3/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eab
+i-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -m
+float-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/resetps_v1_3/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/resetps_v1_3/src'
+
+"Running Make include in psu_cortexr5_0/libsrc/rtcpsu_v1_9/src"
+
+make -C psu_cortexr5_0/libsrc/rtcpsu_v1_9/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi
+-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mf
+loat-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/rtcpsu_v1_9/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/rtcpsu_v1_9/src'
+
+"Running Make include in psu_cortexr5_0/libsrc/scugic_v4_2/src"
+
+make -C psu_cortexr5_0/libsrc/scugic_v4_2/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi
+-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mf
+loat-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/scugic_v4_2/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/scugic_v4_2/src'
+
+"Running Make include in psu_cortexr5_0/libsrc/sdps_v3_9/src"
+
+make -C psu_cortexr5_0/libsrc/sdps_v3_9/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-a
+s" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mflo
+at-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/sdps_v3_9/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/sdps_v3_9/src'
+
+"Running Make include in psu_cortexr5_0/libsrc/standalone_v7_2/src"
+
+make -C psu_cortexr5_0/libsrc/standalone_v7_2/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-
+eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra
+ -mfloat-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/standalone_v7_2/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/standalone_v7_2/src'
+
+"Running Make include in psu_cortexr5_0/libsrc/sysmonpsu_v2_6/src"
+
+make -C psu_cortexr5_0/libsrc/sysmonpsu_v2_6/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-e
+abi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra 
+-mfloat-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/sysmonpsu_v2_6/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/sysmonpsu_v2_6/src'
+
+"Running Make include in psu_cortexr5_0/libsrc/ttcps_v3_11/src"
+
+make -C psu_cortexr5_0/libsrc/ttcps_v3_11/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi
+-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mf
+loat-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/ttcps_v3_11/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/ttcps_v3_11/src'
+
+"Running Make include in psu_cortexr5_0/libsrc/uartps_v3_9/src"
+
+make -C psu_cortexr5_0/libsrc/uartps_v3_9/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi
+-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mf
+loat-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/uartps_v3_9/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/uartps_v3_9/src'
+
+"Running Make include in psu_cortexr5_0/libsrc/usbpsu_v1_7/src"
+
+make -C psu_cortexr5_0/libsrc/usbpsu_v1_7/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi
+-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mf
+loat-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/usbpsu_v1_7/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/usbpsu_v1_7/src'
+
+"Running Make include in psu_cortexr5_0/libsrc/video_common_v4_9/src"
+
+make -C psu_cortexr5_0/libsrc/video_common_v4_9/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-non
+e-eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wext
+ra -mfloat-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/video_common_v4_9/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/video_common_v4_9/src'
+
+"Running Make include in psu_cortexr5_0/libsrc/zdma_v1_9/src"
+
+make -C psu_cortexr5_0/libsrc/zdma_v1_9/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-a
+s" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mflo
+at-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/zdma_v1_9/src'
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/zdma_v1_9/src'
+
+"Running Make libs in psu_cortexr5_0/libsrc/avbuf_v2_3/src"
+
+make -C psu_cortexr5_0/libsrc/avbuf_v2_3/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-as"
+ "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat
+-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/avbuf_v2_3/src'
+
+"Compiling avbuf"
+
+armr5-none-eabi-ar: creating ../../../lib/libxil.a
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/avbuf_v2_3/src'
+
+"Running Make libs in psu_cortexr5_0/libsrc/axipmon_v6_8/src"
+
+make -C psu_cortexr5_0/libsrc/axipmon_v6_8/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-a
+s" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mflo
+at-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/axipmon_v6_8/src'
+
+"Compiling axipmon"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/axipmon_v6_8/src'
+
+"Running Make libs in psu_cortexr5_0/libsrc/canps_v3_4/src"
+
+make -C psu_cortexr5_0/libsrc/canps_v3_4/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-as"
+ "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat
+-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/canps_v3_4/src'
+
+"Compiling canps"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/canps_v3_4/src'
+
+"Running Make libs in psu_cortexr5_0/libsrc/clockps_v1_2/src"
+
+make -C psu_cortexr5_0/libsrc/clockps_v1_2/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-a
+s" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mflo
+at-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/clockps_v1_2/src'
+
+"Compiling clockps"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/clockps_v1_2/src'
+
+"Running Make libs in psu_cortexr5_0/libsrc/coresightps_dcc_v1_7/src"
+
+make -C psu_cortexr5_0/libsrc/coresightps_dcc_v1_7/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-non
+e-eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wext
+ra -mfloat-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/coresightps_dcc_v1_7/src'
+
+"Compiling coresightps_dcc"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/coresightps_dcc_v1_7/src'
+
+"Running Make libs in psu_cortexr5_0/libsrc/cpu_cortexr5_v1_7/src"
+
+make -C psu_cortexr5_0/libsrc/cpu_cortexr5_v1_7/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-e
+abi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra 
+-mfloat-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/cpu_cortexr5_v1_7/src'
+
+"Compiling cpu_cortexr5"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/cpu_cortexr5_v1_7/src'
+
+"Running Make libs in psu_cortexr5_0/libsrc/csudma_v1_6/src"
+
+make -C psu_cortexr5_0/libsrc/csudma_v1_6/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-as
+" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloa
+t-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/csudma_v1_6/src'
+
+"Compiling csudma"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/csudma_v1_6/src'
+
+"Running Make libs in psu_cortexr5_0/libsrc/ddrcpsu_v1_2/src"
+
+make -C psu_cortexr5_0/libsrc/ddrcpsu_v1_2/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-a
+s" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mflo
+at-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/ddrcpsu_v1_2/src'
+
+"Compiling ddrcpsu"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/ddrcpsu_v1_2/src'
+
+"Running Make libs in psu_cortexr5_0/libsrc/dpdma_v1_2/src"
+
+make -C psu_cortexr5_0/libsrc/dpdma_v1_2/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-as"
+ "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat
+-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/dpdma_v1_2/src'
+
+"Compiling dpdma"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/dpdma_v1_2/src'
+
+"Running Make libs in psu_cortexr5_0/libsrc/emacps_v3_11/src"
+
+make -C psu_cortexr5_0/libsrc/emacps_v3_11/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-a
+s" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mflo
+at-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/emacps_v3_11/src'
+
+"Compiling emacps"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/emacps_v3_11/src'
+
+"Running Make libs in psu_cortexr5_0/libsrc/gpiops_v3_7/src"
+
+make -C psu_cortexr5_0/libsrc/gpiops_v3_7/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-as
+" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloa
+t-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/gpiops_v3_7/src'
+
+"Compiling gpiops"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/gpiops_v3_7/src'
+
+"Running Make libs in psu_cortexr5_0/libsrc/iicps_v3_11/src"
+
+make -C psu_cortexr5_0/libsrc/iicps_v3_11/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-as
+" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloa
+t-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/iicps_v3_11/src'
+
+"Compiling iicps"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/iicps_v3_11/src'
+
+"Running Make libs in psu_cortexr5_0/libsrc/ipipsu_v2_6/src"
+
+make -C psu_cortexr5_0/libsrc/ipipsu_v2_6/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-as
+" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloa
+t-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/ipipsu_v2_6/src'
+
+"Compiling ipipsu"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/ipipsu_v2_6/src'
+
+"Running Make libs in psu_cortexr5_0/libsrc/pciepsu_v1_1/src"
+
+make -C psu_cortexr5_0/libsrc/pciepsu_v1_1/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-a
+s" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mflo
+at-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/pciepsu_v1_1/src'
+
+"Compiling pciepsu"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/pciepsu_v1_1/src'
+
+"Running Make libs in psu_cortexr5_0/libsrc/qspipsu_v1_11/src"
+
+make -C psu_cortexr5_0/libsrc/qspipsu_v1_11/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-
+as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfl
+oat-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/qspipsu_v1_11/src'
+
+"Compiling qspipsu"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/qspipsu_v1_11/src'
+
+"Running Make libs in psu_cortexr5_0/libsrc/resetps_v1_3/src"
+
+make -C psu_cortexr5_0/libsrc/resetps_v1_3/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-a
+s" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mflo
+at-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/resetps_v1_3/src'
+
+"Compiling resetps"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/resetps_v1_3/src'
+
+"Running Make libs in psu_cortexr5_0/libsrc/rtcpsu_v1_9/src"
+
+make -C psu_cortexr5_0/libsrc/rtcpsu_v1_9/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-as
+" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloa
+t-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/rtcpsu_v1_9/src'
+
+"Compiling rtcpsu"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/rtcpsu_v1_9/src'
+
+"Running Make libs in psu_cortexr5_0/libsrc/scugic_v4_2/src"
+
+make -C psu_cortexr5_0/libsrc/scugic_v4_2/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-as
+" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloa
+t-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/scugic_v4_2/src'
+
+"Compiling scugic"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/scugic_v4_2/src'
+
+"Running Make libs in psu_cortexr5_0/libsrc/sdps_v3_9/src"
+
+make -C psu_cortexr5_0/libsrc/sdps_v3_9/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-as" 
+"ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat-
+abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/sdps_v3_9/src'
+
+"Compiling sdps"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/sdps_v3_9/src'
+
+"Running Make libs in psu_cortexr5_0/libsrc/standalone_v7_2/src"
+
+make -C psu_cortexr5_0/libsrc/standalone_v7_2/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eab
+i-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -m
+float-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/standalone_v7_2/src'
+
+"Compiling standalone R5"
+
+In file included from usleep.c:45:
+xtime_l.h:70:9: note: #pragma message: For the sleep routines, CortexR5 PMU cycle counter is used
+   70 | #pragma message ("For the sleep routines, CortexR5 PMU cycle counter is used")
+      |         ^~~~~~~
+In file included from xpm_counter.c:49:
+xtime_l.h:70:9: note: #pragma message: For the sleep routines, CortexR5 PMU cycle counter is used
+   70 | #pragma message ("For the sleep routines, CortexR5 PMU cycle counter is used")
+      |         ^~~~~~~
+xpm_counter.c: In function 'Xpm_SetEvents':
+xpm_counter.c:347:2: warning: 'PmcrEventCfg32' is deprecated [-Wdeprecated-declarations]
+  347 |  static PmcrEventCfg32 PmcrEvents[] = {
+      |  ^~~~~~
+In file included from xil_sleeptimer.c:32:
+xtime_l.h:70:9: note: #pragma message: For the sleep routines, CortexR5 PMU cycle counter is used
+   70 | #pragma message ("For the sleep routines, CortexR5 PMU cycle counter is used")
+      |         ^~~~~~~
+In file included from xtime_l.c:44:
+xtime_l.h:70:9: note: #pragma message: For the sleep routines, CortexR5 PMU cycle counter is used
+   70 | #pragma message ("For the sleep routines, CortexR5 PMU cycle counter is used")
+      |         ^~~~~~~
+In file included from sleep.c:44:
+xtime_l.h:70:9: note: #pragma message: For the sleep routines, CortexR5 PMU cycle counter is used
+   70 | #pragma message ("For the sleep routines, CortexR5 PMU cycle counter is used")
+      |         ^~~~~~~
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/standalone_v7_2/src'
+
+"Running Make libs in psu_cortexr5_0/libsrc/sysmonpsu_v2_6/src"
+
+make -C psu_cortexr5_0/libsrc/sysmonpsu_v2_6/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi
+-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mf
+loat-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/sysmonpsu_v2_6/src'
+
+"Compiling sysmonpsu"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/sysmonpsu_v2_6/src'
+
+"Running Make libs in psu_cortexr5_0/libsrc/ttcps_v3_11/src"
+
+make -C psu_cortexr5_0/libsrc/ttcps_v3_11/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-as
+" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloa
+t-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/ttcps_v3_11/src'
+
+"Compiling ttcps"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/ttcps_v3_11/src'
+
+"Running Make libs in psu_cortexr5_0/libsrc/uartps_v3_9/src"
+
+make -C psu_cortexr5_0/libsrc/uartps_v3_9/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-as
+" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloa
+t-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/uartps_v3_9/src'
+
+"Compiling uartps"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/uartps_v3_9/src'
+
+"Running Make libs in psu_cortexr5_0/libsrc/usbpsu_v1_7/src"
+
+make -C psu_cortexr5_0/libsrc/usbpsu_v1_7/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-as
+" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloa
+t-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/usbpsu_v1_7/src'
+
+"Compiling usbpsu"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/usbpsu_v1_7/src'
+
+"Running Make libs in psu_cortexr5_0/libsrc/video_common_v4_9/src"
+
+make -C psu_cortexr5_0/libsrc/video_common_v4_9/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-e
+abi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra 
+-mfloat-abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/video_common_v4_9/src'
+
+"Compiling video_common"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/video_common_v4_9/src'
+
+"Running Make libs in psu_cortexr5_0/libsrc/zdma_v1_9/src"
+
+make -C psu_cortexr5_0/libsrc/zdma_v1_9/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-as" 
+"ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat-
+abi=hard -mfpu=vfpv3-d16"
+
+make[2]: Entering directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0
+/libsrc/zdma_v1_9/src'
+
+"Compiling zdma"
+
+make[2]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/
+libsrc/zdma_v1_9/src'
+
+'Finished building libraries'
+
+make[1]: Leaving directory 'D:/files/VitisProject/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp'
+
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c pm_clock.c -o pm_clock.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from pm_clock.c:6:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c pm_proc.c -o pm_proc.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from pm_proc.c:6:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c xpfw_user_startup.c -o xpfw_user_startup.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from xpfw_user_startup.c:7:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c xpfw_scheduler.c -o xpfw_scheduler.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from xpfw_default.h:15,
+                 from xpfw_scheduler.h:14,
+                 from xpfw_scheduler.c:7:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c xpfw_mod_em.c -o xpfw_mod_em.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from xpfw_default.h:15,
+                 from xpfw_mod_em.c:7:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c pm_reset.c -o pm_reset.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from pm_reset.c:6:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c xpfw_main.c -o xpfw_main.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+xpfw_main.c:7:10: fatal error: xil_io.h: No such file or directory
+    7 | #include "xil_io.h"
+      |          ^~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c pm_power.c -o pm_power.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from pm_power.c:6:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c pm_usb.c -o pm_usb.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from pm_usb.c:6:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c pm_gpp.c -o pm_gpp.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from pm_gpp.c:6:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c xpfw_util.c -o xpfw_util.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+xpfw_util.c:7:10: fatal error: xil_io.h: No such file or directory
+    7 | #include "xil_io.h"
+      |          ^~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c pm_binding.c -o pm_binding.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from pm_binding.c:6:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c pm_pll.c -o pm_pll.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from pm_pll.c:6:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c xpfw_mod_common.c -o xpfw_mod_common.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from xpfw_default.h:15,
+                 from xpfw_mod_common.c:7:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c pm_periph.c -o pm_periph.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from pm_periph.c:6:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c pm_slave.c -o pm_slave.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from pm_slave.c:6:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c idle_hooks.c -o idle_hooks.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+idle_hooks.c:11:10: fatal error: sleep.h: No such file or directory
+   11 | #include <sleep.h>
+      |          ^~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c xpfw_resets.c -o xpfw_resets.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from xpfw_default.h:15,
+                 from xpfw_resets.c:7:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c xpfw_core.c -o xpfw_core.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from xpfw_default.h:15,
+                 from xpfw_core.c:7:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c pm_node.c -o pm_node.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from pm_node.c:6:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c pm_extern.c -o pm_extern.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from pm_extern.c:6:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c xpfw_mod_rpu.c -o xpfw_mod_rpu.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from xpfw_default.h:15,
+                 from xpfw_mod_rpu.c:6:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c xpfw_mod_dap.c -o xpfw_mod_dap.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from xpfw_default.h:15,
+                 from xpfw_mod_dap.c:7:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c xpfw_crc.c -o xpfw_crc.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from xpfw_crc.c:7:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c xpfw_mod_stl.c -o xpfw_mod_stl.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from xpfw_default.h:15,
+                 from xpfw_mod_stl.h:14,
+                 from xpfw_mod_stl.c:7:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c pm_callbacks.c -o pm_callbacks.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from pm_callbacks.c:6:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c xpfw_mod_wdt.c -o xpfw_mod_wdt.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from xpfw_default.h:15,
+                 from xpfw_mod_wdt.c:7:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c pm_csudma.c -o pm_csudma.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from pm_csudma.c:7:
+pm_csudma.h:14:10: fatal error: xcsudma.h: No such file or directory
+   14 | #include "xcsudma.h"
+      |          ^~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c xpfw_rom_interface.c -o xpfw_rom_interface.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from xpfw_rom_interface.c:7:
+xpfw_rom_interface.h:36:10: fatal error: xil_types.h: No such file or directory
+   36 | #include "xil_types.h"
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c xpfw_mod_sched.c -o xpfw_mod_sched.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from xpfw_default.h:15,
+                 from xpfw_mod_sched.c:7:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c pm_sram.c -o pm_sram.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from pm_sram.c:6:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c xpfw_mod_pm.c -o xpfw_mod_pm.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from xpfw_mod_pm.c:6:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c pm_qspi.c -o pm_qspi.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from pm_qspi.c:6:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c xpfw_module.c -o xpfw_module.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from xpfw_default.h:15,
+                 from xpfw_module.h:14,
+                 from xpfw_module.c:6:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c xpfw_mod_ultra96.c -o xpfw_mod_ultra96.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from xpfw_default.h:15,
+                 from xpfw_mod_ultra96.c:7:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c pm_ddr.c -o pm_ddr.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from pm_ddr.c:6:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c xpfw_platform.c -o xpfw_platform.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from xpfw_platform.c:7:
+xpfw_platform.h:14:10: fatal error: xil_types.h: No such file or directory
+   14 | #include "xil_types.h"
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c xpfw_xpu.c -o xpfw_xpu.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from xpfw_default.h:15,
+                 from xpfw_xpu.c:7:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c pm_pinctrl.c -o pm_pinctrl.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from xpfw_default.h:15,
+                 from pm_common.h:20,
+                 from pm_pinctrl.c:7:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c xpfw_mod_rtc.c -o xpfw_mod_rtc.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from xpfw_default.h:15,
+                 from xpfw_mod_rtc.c:7:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c xpfw_events.c -o xpfw_events.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from xpfw_default.h:15,
+                 from xpfw_events.h:13,
+                 from xpfw_events.c:7:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c xpfw_aib.c -o xpfw_aib.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from xpfw_default.h:15,
+                 from xpfw_aib.c:7:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c pm_notifier.c -o pm_notifier.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from pm_notifier.c:6:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c pm_gic_proxy.c -o pm_gic_proxy.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from pm_gic_proxy.c:6:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c pm_core.c -o pm_core.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from pm_core.c:6:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c pm_config.c -o pm_config.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from pm_config.c:6:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c pm_system.c -o pm_system.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from pm_system.c:6:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c pm_mmio_access.c -o pm_mmio_access.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from pm_mmio_access.c:6:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c pm_node_reset.c -o pm_node_reset.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from pm_node_reset.c:6:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c pm_requirement.c -o pm_requirement.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from pm_requirement.c:6:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c xpfw_mod_legacy.c -o xpfw_mod_legacy.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from xpfw_default.h:15,
+                 from xpfw_mod_legacy.c:8:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c xpfw_restart.c -o xpfw_restart.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from xpfw_default.h:15,
+                 from xpfw_restart.c:6:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c xpfw_error_manager.c -o xpfw_error_manager.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from xpfw_default.h:15,
+                 from xpfw_error_manager.h:14,
+                 from xpfw_error_manager.c:6:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c pm_hooks.c -o pm_hooks.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from pm_hooks.c:6:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c xpfw_interrupts.c -o xpfw_interrupts.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from xpfw_default.h:15,
+                 from xpfw_interrupts.h:14,
+                 from xpfw_interrupts.c:7:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c pm_master.c -o pm_master.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from pm_master.c:6:
+xpfw_config.h:14:10: fatal error: xparameters.h: No such file or directory
+   14 | #include "xparameters.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c xpfw_ipi_manager.c -o xpfw_ipi_manager.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+In file included from xpfw_ipi_manager.c:8:
+xpfw_ipi_manager.h:14:10: fatal error: xstatus.h: No such file or directory
+   14 | #include "xstatus.h"
+      |          ^~~~~~~~~~~
+compilation terminated.
+mb-gcc -MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-object
+s    -O2 -c -c xpfw_start.S -o xpfw_start.o -Izynqmp_pmufw_bsp/psu_pmu_0/include -I.
+
+mb-gcc -o executable.elf  pm_clock.o  pm_proc.o  xpfw_user_startup.o  xpfw_scheduler.o  xpfw_mod_em.o  pm_reset.o  xpfw_main.o 
+ pm_power.o  pm_usb.o  pm_gpp.o  xpfw_util.o  pm_binding.o  pm_pll.o  xpfw_mod_common.o  pm_periph.o  pm_slave.o  idle_hooks.o 
+ xpfw_resets.o  xpfw_core.o  pm_node.o  pm_extern.o  xpfw_mod_rpu.o  xpfw_mod_dap.o  xpfw_crc.o  xpfw_mod_stl.o  pm_callbacks.o
+  xpfw_mod_wdt.o  pm_csudma.o  xpfw_rom_interface.o  xpfw_mod_sched.o  pm_sram.o  xpfw_mod_pm.o  pm_qspi.o  xpfw_module.o  xpfw
+_mod_ultra96.o  pm_ddr.o  xpfw_platform.o  xpfw_xpu.o  pm_pinctrl.o  xpfw_mod_rtc.o  xpfw_events.o  xpfw_aib.o  pm_notifier.o  
+pm_gic_proxy.o  pm_core.o  pm_config.o  pm_system.o  pm_mmio_access.o  pm_node_reset.o  pm_requirement.o  xpfw_mod_legacy.o  xp
+fw_restart.o  xpfw_error_manager.o  pm_hooks.o  xpfw_interrupts.o  pm_master.o  xpfw_ipi_manager.o  xpfw_start.o -MMD -MP      
+-mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-objects    -Wl,--start-grou
+p,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilfpga,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilsecure,-lxil,-lgcc
+,-lc,--end-group -Wl,--start-group,-lxilskey,-lxil,-lgcc,-lc,--end-group                                                       
+                                                         -nostartfiles -Wl,--no-relax -Wl,--gc-sections -Lzynqmp_pmufw_bsp/psu_
+pmu_0/lib -Tlscript.ld
+
+microblaze-xilinx-elf-gcc.exe: error: pm_clock.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: pm_proc.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: xpfw_user_startup.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: xpfw_scheduler.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: xpfw_mod_em.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: pm_reset.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: xpfw_main.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: pm_power.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: pm_usb.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: pm_gpp.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: xpfw_util.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: pm_binding.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: pm_pll.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: xpfw_mod_common.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: pm_periph.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: pm_slave.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: idle_hooks.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: xpfw_resets.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: xpfw_core.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: pm_node.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: pm_extern.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: xpfw_mod_rpu.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: xpfw_mod_dap.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: xpfw_crc.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: xpfw_mod_stl.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: pm_callbacks.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: xpfw_mod_wdt.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: pm_csudma.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: xpfw_rom_interface.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: xpfw_mod_sched.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: pm_sram.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: xpfw_mod_pm.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: pm_qspi.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: xpfw_module.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: xpfw_mod_ultra96.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: pm_ddr.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: xpfw_platform.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: xpfw_xpu.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: pm_pinctrl.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: xpfw_mod_rtc.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: xpfw_events.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: xpfw_aib.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: pm_notifier.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: pm_gic_proxy.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: pm_core.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: pm_config.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: pm_system.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: pm_mmio_access.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: pm_node_reset.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: pm_requirement.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: xpfw_mod_legacy.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: xpfw_restart.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: xpfw_error_manager.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: pm_hooks.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: xpfw_interrupts.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: pm_master.o: No such file or directory
+microblaze-xilinx-elf-gcc.exe: error: xpfw_ipi_manager.o: No such file or directory
+Building the BSP Library for domain  - domain_psu_cortexr5_0 on processor psu_cortexr5_0
+"Running Make include in psu_cortexr5_0/libsrc/avbuf_v2_3/src"
+
+make -C psu_cortexr5_0/libsrc/avbuf_v2_3/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-
+as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfl
+oat-abi=hard -mfpu=vfpv3-d16"
+
+"Running Make include in psu_cortexr5_0/libsrc/axipmon_v6_8/src"
+
+make -C psu_cortexr5_0/libsrc/axipmon_v6_8/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eab
+i-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -m
+float-abi=hard -mfpu=vfpv3-d16"
+
+"Running Make include in psu_cortexr5_0/libsrc/canps_v3_4/src"
+
+make -C psu_cortexr5_0/libsrc/canps_v3_4/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-
+as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfl
+oat-abi=hard -mfpu=vfpv3-d16"
+
+"Running Make include in psu_cortexr5_0/libsrc/clockps_v1_2/src"
+
+make -C psu_cortexr5_0/libsrc/clockps_v1_2/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eab
+i-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -m
+float-abi=hard -mfpu=vfpv3-d16"
+
+"Running Make include in psu_cortexr5_0/libsrc/coresightps_dcc_v1_7/src"
+
+make -C psu_cortexr5_0/libsrc/coresightps_dcc_v1_7/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-
+none-eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -W
+extra -mfloat-abi=hard -mfpu=vfpv3-d16"
+
+"Running Make include in psu_cortexr5_0/libsrc/cpu_cortexr5_v1_7/src"
+
+make -C psu_cortexr5_0/libsrc/cpu_cortexr5_v1_7/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-non
+e-eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wext
+ra -mfloat-abi=hard -mfpu=vfpv3-d16"
+
+"Running Make include in psu_cortexr5_0/libsrc/csudma_v1_6/src"
+
+make -C psu_cortexr5_0/libsrc/csudma_v1_6/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi
+-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mf
+loat-abi=hard -mfpu=vfpv3-d16"
+
+"Running Make include in psu_cortexr5_0/libsrc/ddrcpsu_v1_2/src"
+
+make -C psu_cortexr5_0/libsrc/ddrcpsu_v1_2/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eab
+i-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -m
+float-abi=hard -mfpu=vfpv3-d16"
+
+"Running Make include in psu_cortexr5_0/libsrc/dpdma_v1_2/src"
+
+make -C psu_cortexr5_0/libsrc/dpdma_v1_2/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-
+as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfl
+oat-abi=hard -mfpu=vfpv3-d16"
+
+"Running Make include in psu_cortexr5_0/libsrc/emacps_v3_11/src"
+
+make -C psu_cortexr5_0/libsrc/emacps_v3_11/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eab
+i-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -m
+float-abi=hard -mfpu=vfpv3-d16"
+
+"Running Make include in psu_cortexr5_0/libsrc/gpiops_v3_7/src"
+
+make -C psu_cortexr5_0/libsrc/gpiops_v3_7/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi
+-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mf
+loat-abi=hard -mfpu=vfpv3-d16"
+
+"Running Make include in psu_cortexr5_0/libsrc/iicps_v3_11/src"
+
+make -C psu_cortexr5_0/libsrc/iicps_v3_11/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi
+-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mf
+loat-abi=hard -mfpu=vfpv3-d16"
+
+"Running Make include in psu_cortexr5_0/libsrc/ipipsu_v2_6/src"
+
+make -C psu_cortexr5_0/libsrc/ipipsu_v2_6/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi
+-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mf
+loat-abi=hard -mfpu=vfpv3-d16"
+
+"Running Make include in psu_cortexr5_0/libsrc/pciepsu_v1_1/src"
+
+make -C psu_cortexr5_0/libsrc/pciepsu_v1_1/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eab
+i-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -m
+float-abi=hard -mfpu=vfpv3-d16"
+
+"Running Make include in psu_cortexr5_0/libsrc/qspipsu_v1_11/src"
+
+make -C psu_cortexr5_0/libsrc/qspipsu_v1_11/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-ea
+bi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -
+mfloat-abi=hard -mfpu=vfpv3-d16"
+
+"Running Make include in psu_cortexr5_0/libsrc/resetps_v1_3/src"
+
+make -C psu_cortexr5_0/libsrc/resetps_v1_3/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eab
+i-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -m
+float-abi=hard -mfpu=vfpv3-d16"
+
+"Running Make include in psu_cortexr5_0/libsrc/rtcpsu_v1_9/src"
+
+make -C psu_cortexr5_0/libsrc/rtcpsu_v1_9/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi
+-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mf
+loat-abi=hard -mfpu=vfpv3-d16"
+
+"Running Make include in psu_cortexr5_0/libsrc/scugic_v4_2/src"
+
+make -C psu_cortexr5_0/libsrc/scugic_v4_2/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi
+-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mf
+loat-abi=hard -mfpu=vfpv3-d16"
+
+"Running Make include in psu_cortexr5_0/libsrc/sdps_v3_9/src"
+
+make -C psu_cortexr5_0/libsrc/sdps_v3_9/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-a
+s" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mflo
+at-abi=hard -mfpu=vfpv3-d16"
+
+"Running Make include in psu_cortexr5_0/libsrc/standalone_v7_2/src"
+
+make -C psu_cortexr5_0/libsrc/standalone_v7_2/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-
+eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra
+ -mfloat-abi=hard -mfpu=vfpv3-d16"
+
+"Running Make include in psu_cortexr5_0/libsrc/sysmonpsu_v2_6/src"
+
+make -C psu_cortexr5_0/libsrc/sysmonpsu_v2_6/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-e
+abi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra 
+-mfloat-abi=hard -mfpu=vfpv3-d16"
+
+"Running Make include in psu_cortexr5_0/libsrc/ttcps_v3_11/src"
+
+make -C psu_cortexr5_0/libsrc/ttcps_v3_11/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi
+-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mf
+loat-abi=hard -mfpu=vfpv3-d16"
+
+"Running Make include in psu_cortexr5_0/libsrc/uartps_v3_9/src"
+
+make -C psu_cortexr5_0/libsrc/uartps_v3_9/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi
+-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mf
+loat-abi=hard -mfpu=vfpv3-d16"
+
+"Running Make include in psu_cortexr5_0/libsrc/usbpsu_v1_7/src"
+
+make -C psu_cortexr5_0/libsrc/usbpsu_v1_7/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi
+-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mf
+loat-abi=hard -mfpu=vfpv3-d16"
+
+"Running Make include in psu_cortexr5_0/libsrc/video_common_v4_9/src"
+
+make -C psu_cortexr5_0/libsrc/video_common_v4_9/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-non
+e-eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wext
+ra -mfloat-abi=hard -mfpu=vfpv3-d16"
+
+"Running Make include in psu_cortexr5_0/libsrc/zdma_v1_9/src"
+
+make -C psu_cortexr5_0/libsrc/zdma_v1_9/src -s include  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-a
+s" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mflo
+at-abi=hard -mfpu=vfpv3-d16"
+
+"Running Make libs in psu_cortexr5_0/libsrc/avbuf_v2_3/src"
+
+make -C psu_cortexr5_0/libsrc/avbuf_v2_3/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-as"
+ "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat
+-abi=hard -mfpu=vfpv3-d16"
+
+"Compiling avbuf"
+
+armr5-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in psu_cortexr5_0/libsrc/axipmon_v6_8/src"
+
+make -C psu_cortexr5_0/libsrc/axipmon_v6_8/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-a
+s" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mflo
+at-abi=hard -mfpu=vfpv3-d16"
+
+"Compiling axipmon"
+
+"Running Make libs in psu_cortexr5_0/libsrc/canps_v3_4/src"
+
+make -C psu_cortexr5_0/libsrc/canps_v3_4/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-as"
+ "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat
+-abi=hard -mfpu=vfpv3-d16"
+
+"Compiling canps"
+
+"Running Make libs in psu_cortexr5_0/libsrc/clockps_v1_2/src"
+
+make -C psu_cortexr5_0/libsrc/clockps_v1_2/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-a
+s" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mflo
+at-abi=hard -mfpu=vfpv3-d16"
+
+"Compiling clockps"
+
+"Running Make libs in psu_cortexr5_0/libsrc/coresightps_dcc_v1_7/src"
+
+make -C psu_cortexr5_0/libsrc/coresightps_dcc_v1_7/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-non
+e-eabi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wext
+ra -mfloat-abi=hard -mfpu=vfpv3-d16"
+
+"Compiling coresightps_dcc"
+
+"Running Make libs in psu_cortexr5_0/libsrc/cpu_cortexr5_v1_7/src"
+
+make -C psu_cortexr5_0/libsrc/cpu_cortexr5_v1_7/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-e
+abi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra 
+-mfloat-abi=hard -mfpu=vfpv3-d16"
+
+"Compiling cpu_cortexr5"
+
+"Running Make libs in psu_cortexr5_0/libsrc/csudma_v1_6/src"
+
+make -C psu_cortexr5_0/libsrc/csudma_v1_6/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-as
+" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloa
+t-abi=hard -mfpu=vfpv3-d16"
+
+"Compiling csudma"
+
+"Running Make libs in psu_cortexr5_0/libsrc/ddrcpsu_v1_2/src"
+
+make -C psu_cortexr5_0/libsrc/ddrcpsu_v1_2/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-a
+s" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mflo
+at-abi=hard -mfpu=vfpv3-d16"
+
+"Compiling ddrcpsu"
+
+"Running Make libs in psu_cortexr5_0/libsrc/dpdma_v1_2/src"
+
+make -C psu_cortexr5_0/libsrc/dpdma_v1_2/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-as"
+ "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat
+-abi=hard -mfpu=vfpv3-d16"
+
+"Compiling dpdma"
+
+"Running Make libs in psu_cortexr5_0/libsrc/emacps_v3_11/src"
+
+make -C psu_cortexr5_0/libsrc/emacps_v3_11/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-a
+s" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mflo
+at-abi=hard -mfpu=vfpv3-d16"
+
+"Compiling emacps"
+
+"Running Make libs in psu_cortexr5_0/libsrc/gpiops_v3_7/src"
+
+make -C psu_cortexr5_0/libsrc/gpiops_v3_7/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-as
+" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloa
+t-abi=hard -mfpu=vfpv3-d16"
+
+"Compiling gpiops"
+
+"Running Make libs in psu_cortexr5_0/libsrc/iicps_v3_11/src"
+
+make -C psu_cortexr5_0/libsrc/iicps_v3_11/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-as
+" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloa
+t-abi=hard -mfpu=vfpv3-d16"
+
+"Compiling iicps"
+
+"Running Make libs in psu_cortexr5_0/libsrc/ipipsu_v2_6/src"
+
+make -C psu_cortexr5_0/libsrc/ipipsu_v2_6/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-as
+" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloa
+t-abi=hard -mfpu=vfpv3-d16"
+
+"Compiling ipipsu"
+
+"Running Make libs in psu_cortexr5_0/libsrc/pciepsu_v1_1/src"
+
+make -C psu_cortexr5_0/libsrc/pciepsu_v1_1/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-a
+s" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mflo
+at-abi=hard -mfpu=vfpv3-d16"
+
+"Compiling pciepsu"
+
+"Running Make libs in psu_cortexr5_0/libsrc/qspipsu_v1_11/src"
+
+make -C psu_cortexr5_0/libsrc/qspipsu_v1_11/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-
+as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfl
+oat-abi=hard -mfpu=vfpv3-d16"
+
+"Compiling qspipsu"
+
+"Running Make libs in psu_cortexr5_0/libsrc/resetps_v1_3/src"
+
+make -C psu_cortexr5_0/libsrc/resetps_v1_3/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-a
+s" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mflo
+at-abi=hard -mfpu=vfpv3-d16"
+
+"Compiling resetps"
+
+"Running Make libs in psu_cortexr5_0/libsrc/rtcpsu_v1_9/src"
+
+make -C psu_cortexr5_0/libsrc/rtcpsu_v1_9/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-as
+" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloa
+t-abi=hard -mfpu=vfpv3-d16"
+
+"Compiling rtcpsu"
+
+"Running Make libs in psu_cortexr5_0/libsrc/scugic_v4_2/src"
+
+make -C psu_cortexr5_0/libsrc/scugic_v4_2/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-as
+" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloa
+t-abi=hard -mfpu=vfpv3-d16"
+
+"Compiling scugic"
+
+"Running Make libs in psu_cortexr5_0/libsrc/sdps_v3_9/src"
+
+make -C psu_cortexr5_0/libsrc/sdps_v3_9/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-as" 
+"ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat-
+abi=hard -mfpu=vfpv3-d16"
+
+"Compiling sdps"
+
+"Running Make libs in psu_cortexr5_0/libsrc/standalone_v7_2/src"
+
+make -C psu_cortexr5_0/libsrc/standalone_v7_2/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eab
+i-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -m
+float-abi=hard -mfpu=vfpv3-d16"
+
+"Compiling standalone R5"
+
+In file included from usleep.c:45:
+xtime_l.h:70:9: note: #pragma message: For the sleep routines, CortexR5 PMU cycle counter is used
+   70 | #pragma message ("For the sleep routines, CortexR5 PMU cycle counter is used")
+      |         ^~~~~~~
+In file included from xpm_counter.c:49:
+xtime_l.h:70:9: note: #pragma message: For the sleep routines, CortexR5 PMU cycle counter is used
+   70 | #pragma message ("For the sleep routines, CortexR5 PMU cycle counter is used")
+      |         ^~~~~~~
+xpm_counter.c: In function 'Xpm_SetEvents':
+xpm_counter.c:347:2: warning: 'PmcrEventCfg32' is deprecated [-Wdeprecated-declarations]
+  347 |  static PmcrEventCfg32 PmcrEvents[] = {
+      |  ^~~~~~
+In file included from xil_sleeptimer.c:32:
+xtime_l.h:70:9: note: #pragma message: For the sleep routines, CortexR5 PMU cycle counter is used
+   70 | #pragma message ("For the sleep routines, CortexR5 PMU cycle counter is used")
+      |         ^~~~~~~
+In file included from xtime_l.c:44:
+xtime_l.h:70:9: note: #pragma message: For the sleep routines, CortexR5 PMU cycle counter is used
+   70 | #pragma message ("For the sleep routines, CortexR5 PMU cycle counter is used")
+      |         ^~~~~~~
+In file included from sleep.c:44:
+xtime_l.h:70:9: note: #pragma message: For the sleep routines, CortexR5 PMU cycle counter is used
+   70 | #pragma message ("For the sleep routines, CortexR5 PMU cycle counter is used")
+      |         ^~~~~~~
+"Running Make libs in psu_cortexr5_0/libsrc/sysmonpsu_v2_6/src"
+
+make -C psu_cortexr5_0/libsrc/sysmonpsu_v2_6/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi
+-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mf
+loat-abi=hard -mfpu=vfpv3-d16"
+
+"Compiling sysmonpsu"
+
+"Running Make libs in psu_cortexr5_0/libsrc/ttcps_v3_11/src"
+
+make -C psu_cortexr5_0/libsrc/ttcps_v3_11/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-as
+" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloa
+t-abi=hard -mfpu=vfpv3-d16"
+
+"Compiling ttcps"
+
+"Running Make libs in psu_cortexr5_0/libsrc/uartps_v3_9/src"
+
+make -C psu_cortexr5_0/libsrc/uartps_v3_9/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-as
+" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloa
+t-abi=hard -mfpu=vfpv3-d16"
+
+"Compiling uartps"
+
+"Running Make libs in psu_cortexr5_0/libsrc/usbpsu_v1_7/src"
+
+make -C psu_cortexr5_0/libsrc/usbpsu_v1_7/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-as
+" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloa
+t-abi=hard -mfpu=vfpv3-d16"
+
+"Compiling usbpsu"
+
+"Running Make libs in psu_cortexr5_0/libsrc/video_common_v4_9/src"
+
+make -C psu_cortexr5_0/libsrc/video_common_v4_9/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-e
+abi-as" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra 
+-mfloat-abi=hard -mfpu=vfpv3-d16"
+
+"Compiling video_common"
+
+"Running Make libs in psu_cortexr5_0/libsrc/zdma_v1_9/src"
+
+make -C psu_cortexr5_0/libsrc/zdma_v1_9/src -s libs  "SHELL=CMD" "COMPILER=armr5-none-eabi-gcc" "ASSEMBLER=armr5-none-eabi-as" 
+"ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat-
+abi=hard -mfpu=vfpv3-d16"
+
+"Compiling zdma"
+
+'Finished building libraries'
+
+Failed to generate the platform.
+Reason: Failed to generate the zynqmp_pmufw application.
+    invoked from within
+"::tcf::eval -progress {apply {{msg} {puts $msg}}} {tcf_send_command tcfchan#0 xsdb eval s es {{platform active design_1_wrapperf; platform generate }}}"
+    (procedure "::tcf::send_command" line 4)
+    invoked from within
+"tcf send_command $::xsdb::curchan xsdb eval s es [list "platform active $PLATFORM_NAME; platform generate $target"]"
+    invoked from within
+"if { $iswindows == 1 } {    
+
+    set XSDB_PORT [lindex $argv 0]
+    set PLATFORM_NAME [lindex $argv 1]
+    set arglen [llength $argv]
+    set lastind..."
+    (file "E:/Xilinx/Vitis/2020.1\scripts\vitis\util\buildplatform.tcl" line 11)

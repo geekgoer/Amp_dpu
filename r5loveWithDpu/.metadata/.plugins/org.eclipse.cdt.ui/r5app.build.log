@@ -1,0 +1,38 @@
+11:30:41 **** Build of configuration Debug for project r5app ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM R5 gcc compiler'
+armr5-none-eabi-gcc -DARMR5 -DTX_INCLUDE_USER_DEFINE_FILE -Wall -O0 -g3 -I"D:\files\VitisProject\r5loveWithDpu\r5app\src\threadx\inc" -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-r5 -mfloat-abi=hard  -mfpu=vfpv3-d16 -ID:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/sw/design_1_wrapperf/domain_psu_cortexr5_0/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'setup_timer_interrupt':
+../src/helloworld.c:125:9: warning: unused variable 'StatusEvent' [-Wunused-variable]
+  125 |     u32 StatusEvent;
+      |         ^~~~~~~~~~~
+../src/helloworld.c: In function 'timer_interrupt_handler':
+../src/helloworld.c:220:5: warning: implicit declaration of function '_tx_timer_interrupt'; did you mean 'setup_timer_interrupt'? [-Wimplicit-function-declaration]
+  220 |     _tx_timer_interrupt();
+      |     ^~~~~~~~~~~~~~~~~~~
+      |     setup_timer_interrupt
+../src/helloworld.c:211:9: warning: variable 'StatusEvent' set but not used [-Wunused-but-set-variable]
+  211 |     u32 StatusEvent;
+      |         ^~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM R5 gcc compiler'
+armr5-none-eabi-gcc -DARMR5 -DTX_INCLUDE_USER_DEFINE_FILE -Wall -O0 -g3 -I"D:\files\VitisProject\r5loveWithDpu\r5app\src\threadx\inc" -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-r5 -mfloat-abi=hard  -mfpu=vfpv3-d16 -ID:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/sw/design_1_wrapperf/domain_psu_cortexr5_0/bspinclude/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: r5app.elf'
+'Invoking: ARM R5 gcc linker'
+armr5-none-eabi-gcc -L"D:\files\VitisProject\r5love\libapp\Debug" -mcpu=cortex-r5 -mfloat-abi=hard -mfpu=vfpv3-d16 -Wl,-T -Wl,../src/lscript.ld -LD:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/sw/design_1_wrapperf/domain_psu_cortexr5_0/bsplib/lib -o "r5app.elf"  ./src/helloworld.o ./src/platform.o   -lapp -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: r5app.elf'
+' '
+'Invoking: ARM R5 Print Size'
+armr5-none-eabi-size r5app.elf  |tee "r5app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28216	   2952	  61624	  92792	  16a78	r5app.elf
+'Finished building: r5app.elf.size'
+' '
+
+11:30:43 Build Finished (took 1s.965ms)
+
